@@ -45,7 +45,7 @@ export default function Page() {
             result,
         });
 
-        router.push('/bmi/result?' + params.toString());
+        router.push('/result?' + params.toString());
     };
 
     const handleResetClick = () => {
